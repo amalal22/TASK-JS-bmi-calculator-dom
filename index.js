@@ -13,7 +13,7 @@ function calculateBMI() {
   //console.log(BMI);
 
   let Status = ``;
-  if (BMI <= 18.5) {
+  if (BMI < 18.5) {
     Status = `you are under weight`;
   } else if (BMI <= 24.9) {
     Status = `you have Healthy Weight`;
